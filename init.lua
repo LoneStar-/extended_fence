@@ -48,5 +48,33 @@ collision_box = {
 },
 })
 
+minetest.override_item("walls:cobble",
+{
+collision_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, 1.5, 0.5},
+		},
+},
+})
 
+minetest.override_item("walls:desertcobble",
+{
+collision_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, 1.5, 0.5},
+		},
+},
+})
+
+minetest.override_item("walls:mossycobble",
+{
+collision_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, 1.5, 0.5},
+		},
+},
+})
 
