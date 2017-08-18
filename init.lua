@@ -78,3 +78,52 @@ collision_box = {
 },
 })
 
+minetest.override_item("doors:gate_wood_closed",
+{
+collision_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, 1.5, 0.5},
+		},
+},
+})
+
+minetest.override_item("doors:gate_pine_wood_closed",
+{
+collision_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, 1.5, 0.5},
+		},
+},
+})
+
+minetest.override_item("doors:gate_junglewood_closed",
+{
+collision_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, 1.5, 0.5},
+		},
+},
+})
+
+minetest.override_item("doors:gate_aspen_wood_closed",
+{
+collision_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, 1.5, 0.5},
+		},
+},
+})
+
+minetest.override_item("doors:gate_acacia_wood_closed",
+{
+collision_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, 1.5, 0.5},
+		},
+},
+})
